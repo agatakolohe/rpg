@@ -15,6 +15,7 @@ Purpose usage, detailed explanation what is does and any other information you w
 | Test | Expect |
 | ---- | ------ |
 | should correctly create player object with a name and type  | Player(name, type).toEqual("Samwise", "hobbit") | 
+| should correctly check hunger level and return appropriate response | player.hungerLevel(49).toEqual("what about second breakfast?")
 
 
 ## Setup/Installation Requirements
